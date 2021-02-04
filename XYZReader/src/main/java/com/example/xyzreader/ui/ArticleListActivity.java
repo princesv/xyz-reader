@@ -58,6 +58,7 @@ public class ArticleListActivity extends ActionBarActivity implements
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_article_list);
+        setSupportActionBar(mToolbar);
 
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
 
